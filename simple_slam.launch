@@ -1,0 +1,11 @@
+<launch>
+ <machine name="local" address="localhost" default="true" />
+
+  <node name="simple_slam" pkg="simple_slam" type="simple_slam"
+        cwd="node" required="true" output="screen"/>
+
+  <node name="MapTrasformPublisher" pkg="tf" type="static_transform_publisher"
+        args="0 0 0 0 0 0 odom map 250" cwd="node" required="true"/>
+
+
+</launch>

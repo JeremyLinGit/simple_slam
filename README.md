@@ -1,7 +1,7 @@
 # simple_slam
 A simple ROS slam code without optimization
 system : Ubuntu 18.04 / ROS melodic    
-It's the easiest and simplest slam project without any loop closure or optimization.    
+It's the easiest and simplest slam project
 Pros: The conputation is very little     
 Cons: might get lost or have drift when too much noise.     
 You could check out Gmapping or Hector slam if you are interested in more sophisticated ones.
